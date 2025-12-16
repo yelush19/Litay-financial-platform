@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "insightflowdemo.litay.co.il"
+        }
+      ],
+      "destination": "/demo"
+    }
+  ]
+}
