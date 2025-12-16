@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+/* Hebrew Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Heebo:wght@100..900&display=swap');
+
+/* CSS Variables for theming - will be overridden by tenant config */
+:root {
+  --color-primary: #528163;
+  --color-primary-light: #8dd1bb;
+  --color-primary-dark: #2d5f3f;
+  --color-accent: #17320b;
+
+  --color-success: #27ae60;
+  --color-warning: #f39c12;
+  --color-error: #e74c3c;
+  --color-info: #3498db;
+
+  --color-neutral-dark: #2d3436;
+  --color-neutral-medium: #636e72;
+  --color-neutral-light: #b2bec3;
+  --color-neutral-bg: #f5f6fa;
+}
+
+/* Base styles */
+html {
+  direction: rtl;
+}
+
+body {
+  margin: 0;
+  font-family: 'Assistant', 'Heebo', 'Noto Sans Hebrew', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-neutral-bg);
+  color: var(--color-neutral-dark);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-neutral-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-dark);
+}
+
+/* Utility classes for RTL */
+.text-start {
+  text-align: right;
+}
+
+.text-end {
+  text-align: left;
+}
+
+/* Table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: right;
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--color-neutral-light);
+}
+
+/* Number formatting (LTR for numbers) */
+.number, .currency {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Form inputs */
+input, select, textarea {
+  font-family: inherit;
+  direction: rtl;
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: white;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
