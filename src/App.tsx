@@ -10,6 +10,7 @@ import {
   UploadPage,
   AdminTenantsPage,
   AdminUsersPage,
+  TenantDetailPage,
   DemoPage,
 } from '@/pages';
 
@@ -51,6 +52,14 @@ function App() {
                 element={
                   <ProtectedRoute requiredRoles={['platform_admin']} requireTenant={false}>
                     <AdminUsersPage />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/admin/tenants/:id"
+                element={
+                  <ProtectedRoute requiredRoles={['platform_admin']} requireTenant={false}>
+                    <TenantDetailPage />
                   </ProtectedRoute>
                 }
               />
