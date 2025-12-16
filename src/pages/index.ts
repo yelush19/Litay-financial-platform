@@ -5,3 +5,4 @@ export { SettingsPage } from './SettingsPage';
 export { UploadPage } from './UploadPage';
 export { AdminTenantsPage } from './AdminTenantsPage';
 export { AdminUsersPage } from './AdminUsersPage';
+export { DemoPage } from './DemoPage';

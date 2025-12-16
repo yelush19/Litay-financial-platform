@@ -10,6 +10,7 @@ import {
   UploadPage,
   AdminTenantsPage,
   AdminUsersPage,
+  DemoPage,
 } from '@/pages';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Routes>
             {/* Public routes */}
             <Route path="/login" element={<LoginPage />} />
+            <Route path="/demo" element={<DemoPage />} />
 
             {/* Protected routes */}
             <Route
