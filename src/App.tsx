@@ -5,6 +5,8 @@ import { MainLayout } from '@/shared/components/layout';
 import {
   DashboardPage,
   ReportsPage,
+  AnalyticsPage,
+  SettingsPage,
   UploadPage,
   AdminTenantsPage,
   AdminUsersPage,
@@ -29,9 +31,9 @@ function App() {
             >
               <Route path="/" element={<DashboardPage />} />
               <Route path="/reports" element={<ReportsPage />} />
-              <Route path="/analytics" element={<ComingSoon title="אנליטיקס" />} />
+              <Route path="/analytics" element={<AnalyticsPage />} />
               <Route path="/upload" element={<UploadPage />} />
-              <Route path="/settings" element={<ComingSoon title="הגדרות" />} />
+              <Route path="/settings" element={<SettingsPage />} />
 
               {/* Admin routes */}
               <Route
