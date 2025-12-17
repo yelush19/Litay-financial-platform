@@ -431,11 +431,11 @@ export function DemoPage() {
                 <div>
                   <h3 className="text-2xl font-bold text-white mb-1">ליתאי</h3>
                   <p className="text-lg text-white/90 font-medium">ניהול שירותים בע"מ</p>
-                  <p className="text-sm text-white/80 italic mt-1">Innovation in Balance</p>
+                  <p className="text-sm text-white/80 italic mt-1">מצוינות חשבונאית | חדשנות דיגיטלית</p>
                 </div>
               </div>
               <p className="text-white/90 text-sm leading-relaxed">
-                InsightFlow - פלטפורמת דוחות פיננסיים מתקדמת. ניתוח נתונים חכם, דוחות אינטראקטיביים, ותובנות עסקיות בזמן אמת.
+                פתרון BI מקצועי לניהול כלכלי חכם. מערכת מתקדמת לניתוח פיננסי, דוחות בזמן אמת, והחלטות עסקיות מבוססות נתונים.
               </p>
               <div className="flex gap-3">
                 {[Shield, Zap, Award].map((Icon, i) => (
@@ -454,11 +454,11 @@ export function DemoPage() {
               </h4>
               <ul className="space-y-3">
                 {[
-                  "דוחות רווח והפסד",
-                  "ניתוח מגמות",
+                  "דוחות רווח והפסד מתקדמים",
+                  "ניתוח מגמות ותחזיות",
                   "השוואה בין תקופות",
-                  "ייצוא לאקסל",
-                  "התראות חכמות"
+                  "ייצוא אוטומטי לאקסל",
+                  "התראות ותובנות חכמות"
                 ].map((feature, i) => (
                   <li key={i} className="flex items-center gap-2 text-white/90 text-sm">
                     <CheckCircle size={14} />
@@ -505,7 +505,7 @@ export function DemoPage() {
                   התחל עכשיו
                 </a>
                 <p className="text-white/80 text-xs text-center">
-                  ללא התחייבות · התקנה מהירה
+                  אבטחה מלאה · גישה מיידית · תמיכה מקצועית
                 </p>
               </div>
             </div>
@@ -521,7 +521,7 @@ export function DemoPage() {
                 <span>כל הזכויות שמורות</span>
               </div>
               <div className="text-xs">
-                <span className="font-semibold">InsightFlow</span> · גרסה 1.0.0
+                <span className="font-semibold">InsightFlow by Litay</span> · מערכת BI לניהול פיננסי · גרסה 1.0.0
               </div>
             </div>
           </div>
