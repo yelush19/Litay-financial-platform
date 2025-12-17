@@ -431,7 +431,7 @@ export function DemoPage() {
                 <div>
                   <h3 className="text-2xl font-bold text-white mb-1">ליתאי</h3>
                   <p className="text-lg text-white/90 font-medium">ניהול שירותים בע"מ</p>
-                  <p className="text-sm text-white/80 italic mt-1">מצוינות חשבונאית | חדשנות דיגיטלית</p>
+                  <p className="text-sm text-white/80 italic mt-1">חדשנות במאזן | Innovation in Balance</p>
                 </div>
               </div>
               <p className="text-white/90 text-sm leading-relaxed">
