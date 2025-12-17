@@ -505,7 +505,7 @@ export function DemoPage() {
                   התחל עכשיו
                 </a>
                 <p className="text-white/80 text-xs text-center">
-                  אבטחה מלאה · גישה מיידית · תמיכה מקצועית
+                  אבטחה מלאה · גישה מיידית · ליווי צמוד
                 </p>
               </div>
             </div>
